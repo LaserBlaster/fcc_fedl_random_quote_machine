@@ -1,0 +1,91 @@
+body {
+  background-color: #27ae60;
+}
+
+/* style for fontawesome buttons */
+i {
+  display: inline;
+  color: #27ae60;
+}
+
+/* classes for handling changes in screen size */
+.shareButtonSmallScreen {
+  font-size: 8em;
+  margin-right: 0.2em;
+}
+
+.shareButtonBigScreen {
+  font-size: 2.5em;
+  margin-right: 0.2em;
+}
+
+.newQuoteButtonSmallScreen {
+  font-size: 3em;
+  padding: 0.6em;
+  margin: 0.2em 0em;
+  border-radius: 0.3em;
+}
+
+.newQuoteButtonBigScreen {
+  font-size: 1.2em;
+  padding: 0.4em;
+  margin: 0.2em 0em;
+  border-radius: 0.4em;
+}
+
+/*main div where react is stored */
+#quoteMachineBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin: auto;
+  margin-top: 5em;
+  padding: 0em;
+}
+
+/* contains content within react */
+#quote-box {
+  height: auto;
+  margin: auto;
+  background-color: white;
+  padding: 3em;
+  border-radius: 1em;
+}
+
+/* the quote that is randomly generated */
+#text {
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  color: #27ae60;
+  margin-top: -5em;
+}
+
+/* the author of the randomly generated quote */
+#author {
+  text-align: right;
+  background-color: white;
+  color: #27ae60;
+}
+
+/* div in which fontawesome content is stored */
+#tweet-quote, #tumblr-quote {
+  display: inline;
+}
+
+/* style for the button used to generate new quotes */
+#new-quote {
+  display: inline;
+  height: auto;
+  float: right;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+}
+
+/* rows used to store other divs */
+.row {
+  margin-top: 2em;
+}
+/*# sourceMappingURL=fcc_random_quote_machine.css.map */
